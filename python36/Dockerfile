@@ -7,3 +7,5 @@ RUN yum install -y \
     python36-pip \
     zip \
     &&  yum clean all
+
+RUN pip-3.6 install boto3
