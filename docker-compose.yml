@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  python36:
+    build: ./python36
+    volumes:
+      - ./python36:/tmp/workspace
+    working_dir: /tmp/workspace
