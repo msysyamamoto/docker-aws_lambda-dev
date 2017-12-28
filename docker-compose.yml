@@ -6,3 +6,5 @@ services:
     volumes:
       - ./python36:/tmp/workspace
     working_dir: /tmp/workspace
+    env_file:
+      - ./python36/python36.env
